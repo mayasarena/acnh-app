@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/acnh-app/static/css/main.74b6868a.css",
+    "main.js": "/acnh-app/static/js/main.9ed79d2b.js",
+    "static/js/726.609a7b54.chunk.js": "/acnh-app/static/js/726.609a7b54.chunk.js",
+    "index.html": "/acnh-app/index.html",
+    "main.74b6868a.css.map": "/acnh-app/static/css/main.74b6868a.css.map",
+    "main.9ed79d2b.js.map": "/acnh-app/static/js/main.9ed79d2b.js.map",
+    "726.609a7b54.chunk.js.map": "/acnh-app/static/js/726.609a7b54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74b6868a.css",
+    "static/js/main.9ed79d2b.js"
+  ]
+}
