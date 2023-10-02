@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #F4F1E2;
+}
+
+.body {
+  width: 95%;
+  padding-top: 5rem;
+  margin: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@keyframes navbar-show-animation {
+  from {
+    left: -300px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+.hideNav {
+  display: none;
+}
+
+.showNav {
+  display: block;
+  position: fixed;
+  width: 300px;;
+  height: 100vh;
+  left: 0px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  animation-name: navbar-show-animation;
+  animation-duration: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  .showNav {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+    text-align: center;
+    animation-name: none;
+  }
+
+  .hideNav {
+    display: none;
+    animation-name: none;
+  }
+}
+
+.card {
+  background-color: #EEE9D2;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #82D7A9;
+  padding: 6px 15px;
+  border-radius: 7px;
+  font-size: 13px;
+  font-family: 'Roboto Mono', monospace;
+  transition: background-color 0.1s ease;
+}
+
+.button:hover {
+  background-color: #665752;
+  color: white;
+}
+
+.button-active {
+  background-color: #524642;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 7px;
+  font-size: 13px;
+  font-family: 'Roboto Mono', monospace;
+}
