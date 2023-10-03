@@ -1,5 +1,5 @@
 # acnh-app
-This is a simple app for exploring fish, bugs, sea creatures, and villagers from Animal Crossing: New Horizons. <a href="https://mayaserena.github.io/acnh-app/">Press here for a semi-functional deployment of the app</a>, although it is buggy and the logging in feature is not available in this deployment.
+This is a simple app for exploring fish, bugs, sea creatures, and villagers from Animal Crossing: New Horizons. <a href="https://mayasarena.github.io/acnh-app/">Press here for a semi-functional deployment of the app</a>, although it is buggy and the logging in feature is not available in this deployment.
 
 ### Users can login with Google and star items
 The website features Google login. Users can star and unstar items, which they can see on their profile.<br>
